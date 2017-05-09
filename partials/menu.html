@@ -1,0 +1,19 @@
+<md-toolbar>
+ 	<div class="md-toolbar-tools">
+	    <md-button aria-label="Go Back">
+	      Go Back
+	    </md-button>
+
+	    <md-truncate class="changeCollor">Toolbar with Standard Buttons</md-truncate>
+
+	    <span flex></span>
+
+	    <md-button class="md-raised" aria-label="Learn More" ng-repeat="item in botoes" href="{{item.link}}">
+	      {{item.name}}
+	    </md-button>
+
+	    <md-button class="md-fab md-mini" aria-label="Favorite">
+	      <md-icon md-svg-icon=""></md-icon>
+	    </md-button>
+	</div>
+</md-toolbar>
